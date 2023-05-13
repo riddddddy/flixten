@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/47491cff78.js"></script>
+
+</head>
+<body>
+    
+    <article class="navbar-section">
+        <div><a href="index.html">FlixTen</a></div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="right-navbar">
+            <div href="#home" onclick="home()">Home</div>
+            <div href="#contact" onclick="contact()">Contact</div>
+            <!-- <div href="#info" onclick="info()">Info</div> -->
+        </div>
+    </article>
+
+    <article class="welcome">
+        <div class="title">Welcome to the best movie guide in the net, Earthlings</div>
+        <div class="line"></div>
+        <div class="creator">Made by Ridwan Yusoff</div>
+        <div class="container-search-bar">
+            <input class="search-bar" type="text" placeholder="Search Movies/TV series">
+        </div>
+        <div class="search-bar-result">
+            <!-- <img src="" alt="">
+            <div>
+                <div>Title of Movie</div>
+                <div>vote average</div>
+                <div>Overview</div>
+                <div>Genres</div>
+
+            </div>
+        </div> -->
+    
+    </article>
+
+
+
+    <article class="movie-display">
+        <div>
+            <h2>Top Rated</h2>
+            <div class="arrow">
+                <i id="top-rated" onclick="left(id)" class="fa-solid fa-arrow-left fa-2xl"></i>
+                <i id="top-rated" onclick="right(id)" class="fa-solid fa-arrow-right fa-2xl"></i>
+            </div>
+            
+            <section class="top-rated" id="top-rated">
+                <div class="display-movie-item">
+                    <img src="" alt="">
+                    <div>title of the movie</div>
+                    <div>rating of the movie</div>
+                </div>
+            </section>
+            
+        </div>
+    </article>
+
+    <article class="movie-display">
+        <div id="POPULAR">
+            <h2>Popular</h2>
+            <div class="arrow">
+                <i id="popular" onclick="left(id)" class="fa-solid fa-arrow-left fa-2xl"></i>
+                <i id="popular" onclick="right(id)" class="fa-solid fa-arrow-right fa-2xl"></i>
+            </div>
+            
+            <section class="popular" id="popular">
+                <div class="display-movie-item">
+                    <img src="" alt="">
+                    <div>title of the movie</div>
+                    <div>rating of the movie</div>
+                </div>
+            </section>
+            
+        </div>
+    </article>
+
+    <article class="movie-display">
+        <div id="UPCOMING">
+            <h2>Upcoming</h2>
+            <div class="arrow">
+                <i id="upcoming" onclick="left(id)" class="fa-solid fa-arrow-left fa-2xl"></i>
+                <i id="upcoming" onclick="right(id)" class="fa-solid fa-arrow-right fa-2xl"></i>
+            </div>
+            
+            <section class="upcoming" id="upcoming">
+                <div class="display-movie-item">
+                    <img src="" alt="">
+                    <div>title of the movie</div>
+                    <div>rating of the movie</div>
+                </div>
+            </section>
+            
+        </div>
+    </article>
+
+    <article id="contact">
+        <div>
+            <h1>Ridwan Yusoff</h1>
+            <h2>ridwanyusoff93@gmail.com</h2>
+            <h3>Singapore 530925</h3>
+        </div>
+        
+    </article>
+
+    <!-- <article id="info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi nobis sunt corrupti laudantium, eligendi cum aliquam, ipsum adipisci consequuntur possimus tempora vitae deserunt obcaecati velit consequatur maiores tempore ab. Autem.
+    </article> -->
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
